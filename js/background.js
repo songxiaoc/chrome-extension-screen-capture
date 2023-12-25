@@ -5,6 +5,8 @@
  * 但是，background.js 具备访问 chrome.xxx 的能力，这在 content.js 中是不具备的
  *
  * */
+
+/*
 console.log("-----> background.js")
 
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
@@ -23,3 +25,4 @@ function captureScreen(tab) {
         });
     });
 }
+*/

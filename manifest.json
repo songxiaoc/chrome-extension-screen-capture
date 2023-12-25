@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "浏览器截屏",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "实现浏览器屏幕截图的插件",
   "icons": {
 	"16": "icon.png",
@@ -15,8 +15,8 @@
   },
   "permissions": [
     "activeTab",
-	"storage",
 	"tabs",
+    "storage",
     "downloads"
   ],
   "content_scripts": [
